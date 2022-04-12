@@ -4,7 +4,7 @@
 #
 Name     : pypi-google_pasta
 Version  : 0.2.0
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/35/4a/0bd53b36ff0323d10d5f24ebd67af2de10a1117f5cf4d7add90df92756f1/google-pasta-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/35/4a/0bd53b36ff0323d10d5f24ebd67af2de10a1117f5cf4d7add90df92756f1/google-pasta-0.2.0.tar.gz
 Summary  : pasta is an AST-based Python refactoring library
@@ -13,9 +13,6 @@ License  : Apache-2.0
 Requires: pypi-google_pasta-python = %{version}-%{release}
 Requires: pypi-google_pasta-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: google-pasta
-Provides: google-pasta-python
-Provides: google-pasta-python3
 BuildRequires : pypi(six)
 
 %description
@@ -52,7 +49,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641439857
+export SOURCE_DATE_EPOCH=1649753286
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
